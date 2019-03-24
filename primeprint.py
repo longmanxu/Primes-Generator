@@ -1,11 +1,11 @@
-import primelookupgen
+import primegen
 import time
 
 n = int(input("What's the highest number (exclusive) you want to check?\n"))
 
 start_time = time.time()
 
-A = primelookupgen.gen_lookup_table(n)
+A = primegen.gen_lookup_table(n)
 for i in range(n):
     if A[i]:
         print(i)

@@ -1,8 +1,8 @@
-import primelookupgen
+import primegen
 
 n = int(input("What's the highest number (exclusive) you want to check?\n"))
 
-A = primelookupgen.gen_lookup_table(n)
+A = primegen.gen_lookup_table(n)
 
 with open("primes.txt", mode="w") as f:
     for i in range(n):
