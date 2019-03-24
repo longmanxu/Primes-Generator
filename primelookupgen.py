@@ -1,7 +1,7 @@
 import math
 
 
-def primegen(n):
+def gen_lookup_table(n):
     """
     Generates and returns a lookup table of primes up to n
 
